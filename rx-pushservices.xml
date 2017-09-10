@@ -1,0 +1,107 @@
+<prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
+<!-- Xiaomi mipush SDK -->
+<prescription type="service" class="com.xiaomi.push.service.XMPushService" sender="any" />
+<prescription type="service" class="com.xiaomi.push.service.XMJobService" sender="any" />
+<prescription type="service" class="com.xiaomi.push.sdk.service.MessageHandleService" sender="any" />
+<prescription type="service" class="com.xiaomi.push.sdk.service.PushMessageHandler" sender="any" />
+<prescription type="broadcast" class="com.xiaomi.push.service.broadcasts.NetworkStatusReceiver" sender="any" />
+<prescription type="broadcast" class="com.xiaomi.push.service.broadcasts.PingReceiver" sender="any" />
+<!-- Taobao push SDK -->
+<prescription type="service" class="com.taobao.accs.ChannelService" sender="any" />
+<prescription type="service" class="com.taobao.accs.ChannelService$KernelService" sender="any" />
+<prescription type="service" class="com.taobao.accs.data.MsgDistributeService" sender="any" />
+<prescription type="service" class="org.android.agoo.accs.AgooService" sender="any" />
+<prescription type="broadcast" class="com.taobao.accs.EventReceiver" sender="any" />
+<prescription type="broadcast" class="com.taobao.accs.ServiceReceiver" sender="any" />
+<prescription type="broadcast" class="com.taobao.agoo.AgooCommondReceiver" sender="any" />
+<!-- Igexin push SDK -->
+<prescription type="service" class="com.igexin.dowload.DownloadService" sender="other-app" />
+<prescription type="service" class="com.igexin.sdk.PushService" sender="any" />
+<prescription type="service" class="com.igexin.sdk.PushServiceUser" sender="any" />
+<prescription type="service" class="com.igexin.getuiext.service.GetuiExtService" sender="any" />
+<prescription type="activity" class="com.igexin.sdk.PushActivity" sender="any" />
+<prescription type="activity" class="com.igexin.sdk.GActivity" sender="any" />
+<prescription type="activity" class="com.igexin.getuiext.activity.GetuiExtActivity" sender="any" />
+<prescription type="broadcast" class="com.igexin.sdk.PushReceiver" sender="any" />
+<prescription type="broadcast" class="com.igexin.sdk.PushManagerReceiver" sender="any" />
+<prescription type="broadcast" class="com.igexin.getuiext.service.PayloadReceiver" sender="any" />
+<prescription type="broadcast" class="com.igexin.download.DownloadReceiver" sender="other-app" />
+<!-- Tencent push SDK -->
+<prescription type="service" class="com.tencent.android.tpush.service.XGPushServiceV3" sender="any" />
+<prescription type="service" class="com.tencent.android.tpush.service.XGPushService" sender="any" />
+<prescription type="service" class="com.tencent.android.tpush.rpc.XGRemoteService" sender="any" />
+<prescription type="activity" class="com.tencent.android.tpush.XGPushActivity" sender="any" />
+<prescription type="broadcast" class="com.tencent.android.tpush.XGPushReceiver" sender="any" />
+<!-- Umeng push SDK -->
+<prescription type="service" class="com.umeng.update.net.DownloadingService" sender="other-app" />
+<prescription type="service" class="com.umeng.message.UmengService" sender="any" />
+<prescription type="service" class="com.umeng.message.UmengDownloadResourceService" sender="other-app" />
+<prescription type="service" class="com.umeng.message.UmengIntentService" sender="any" />
+<prescription type="service" class="com.umeng.message.UmengMessageIntentReceiverService" sender="any" />
+<prescription type="service" class="com.umeng.message.UmengMessageCallbackHandlerService" sender="any" />
+<prescription type="broadcast" class="com.umeng.message.NotificationProxyBroadcastReceiver" sender="any" />
+<!-- Jpush push SDK -->
+<prescription type="service" class="cn.jpush.android.service.PushService" sender="any" />
+<prescription type="service" class="cn.jpush.android.service.DownloadService" sender="other-app" />
+<prescription type="service" class="cn.jpush.android.service.DaemonService" sender="any" />
+<prescription type="activity" class="cn.jpush.android.ui.PushActivity" sender="any" />
+<prescription type="activity" class="cn.jpush.android.ui.PopWinActivity" sender="any" />
+<prescription type="broadcast" class="cn.jpush.android.service.PushReceiver" sender="any" />
+<prescription type="broadcast" class="cn.jpush.android.service.AlarmReceiver" sender="any" />
+<!-- Baidu push SDK -->
+<prescription type="service" class="com.baidu.android.pushservice.PushService" sender="any" />
+<prescription type="service" class="com.baidu.sapi2.share.ShareService" sender="any" />
+<!-- Huawei push SDK -->
+<prescription type="service" class="com.huawei.deviceCloud.microKernel.push.PushMKService" sender="any" />
+<prescription type="service" class="com.huawei.deviceCloud.microKernel.push.PushBootReceiver" sender="any" />
+<prescription type="service" class="com.huawei.deviceCloud.microKernel.push.EventReceiver" sender="any" />
+<!-- Dianping push SDK -->
+<prescription type="service" class="com.dianping.base.push.pushservice.dp.FakeService" sender="any" />
+<prescription type="service" class="com.dianping.base.push.pushservice.dp.DPPushService" sender="any" />
+<prescription type="service" class="com.dianping.base.push.pushservice.PushWakeUpJob" sender="any" />
+<prescription type="service" class="com.dianping.base.push.pushservice.MZPushService" sender="any" />
+<!-- Low frequency push SDK -->
+<prescription type="service" class="com.tencent.qalsdk.service.QalService" sender="any" />
+<prescription type="service" class="com.tencent.qalsdk.service.QalAssistService" sender="any" />
+<prescription type="service" class="com.qq.e.comm.DownloadService" sender="any" />
+<!-- Other push SDK -->
+<!-- Mobridge -->
+<prescription type="service" class="com.mobridge.MoPushService" sender="any" />
+<!-- Grandmobile -->
+<prescription type="service" class="cn.grandmobile.sdk.android.PushBroadcastReceiver" sender="any" />
+<prescription type="service" class="cn.grandmobile.sdk.android.PushService" sender="any" />
+<!-- Bomb -->
+<prescription type="service" class="cn.bmob.push.PushReceiver" sender="any" />
+<prescription type="service" class="cn.bmob.push.lib.service.PushService" sender="any" />
+<prescription type="service" class="cn.immob.sdk.net.DownloadService" sender="any" />
+<!-- Yunba -->
+<prescription type="service" class="io.yunba.android.core.YunBaService" sender="any" />
+<!-- Atom -->
+<prescription type="service" class="com.atom.push.sdk.AtomAlarmReceiver" sender="any" />
+<prescription type="service" class="com.atom.push.sdk.AtomPushActionCustomReceiver" sender="any" />
+<prescription type="service" class="com.atom.push.sdk.AtomPushService" sender="any" />
+<!-- MoPaas -->
+<prescription type="service" class="com.mopaas.backendmonitor.MonitorService" sender="any" />
+<prescription type="service" class="com.mopaas.pushservice.sdk.MPSPushService" sender="any" />
+<!-- CMCC -->
+<prescription type="service" class="com.cmcc.aoe.AoeService" sender="any" />
+<prescription type="service" class="com.cmcc.aoe.push.AOEService" sender="any" />
+<!-- WeCloud -->
+<prescription type="service" class="com.jiubang.go.push.PushServiceReceiver" sender="any" />
+<prescription type="service" class="com.jiubang.go.push.PushService" sender="any" />
+<prescription type="service" class="com.zihao.service.MyMsgService" sender="any" />
+<!-- AVOS -->
+<prescription type="service" class="com.avos.avoscloud.AVDefaultNotificationReceiver" sender="any" />
+<prescription type="service" class="com.avos.avoscloud.PushService" sender="any" />
+<!-- Cocos -->
+<prescription type="service" class="com.cocos.push.client.CCPushClientReceiver" sender="any" />
+<prescription type="service" class="com.cocos.push.service.CCPushService" sender="any" />
+<!-- mPush -->
+<prescription type="service" class="com.mrocker.push.service.PushService" sender="any" />
+<prescription type="service" class="com.mrocker.push.service.PushServiceReceiver" sender="any" />
+<!-- imofan -->
+<prescription type="service" class="com.imofan.android.basic.update.MFUpdateService" sender="any" />
+<!-- ixintui -->
+<prescription type="service" class="com.ixintui.push.PushService" sender="any" />
+<prescription type="service" class="com.ixintui.push.MediateService" sender="any" />
+</prescriptions>
