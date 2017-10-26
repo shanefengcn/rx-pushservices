@@ -9,4 +9,4 @@
 
 感谢[simonsmh](https://github.com/simonsmh/rx-zero)和[WitherZuo](https://github.com/WitherZuo/rx-pushserviceslist)提供的处方
 
-[点击生效](https://greenify.github.io/lanbingxuanyi/rx-pushservices)
+[点击生效](https://greenify.github.io/shanefengcn/rx-pushservices)
