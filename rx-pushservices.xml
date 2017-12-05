@@ -26,12 +26,6 @@
 <prescription type="broadcast" class="com.igexin.sdk.PushManagerReceiver" sender="any" />
 <prescription type="broadcast" class="com.igexin.getuiext.service.PayloadReceiver" sender="any" />
 <prescription type="broadcast" class="com.igexin.download.DownloadReceiver" sender="other-app" />
-<!-- Tencent push SDK -->
-<prescription type="service" class="com.tencent.android.tpush.service.XGPushServiceV3" sender="any" />
-<prescription type="service" class="com.tencent.android.tpush.service.XGPushService" sender="any" />
-<prescription type="service" class="com.tencent.android.tpush.rpc.XGRemoteService" sender="any" />
-<prescription type="activity" class="com.tencent.android.tpush.XGPushActivity" sender="any" />
-<prescription type="broadcast" class="com.tencent.android.tpush.XGPushReceiver" sender="any" />
 <!-- Umeng push SDK -->
 <prescription type="service" class="com.umeng.update.net.DownloadingService" sender="other-app" />
 <prescription type="service" class="com.umeng.message.UmengService" sender="any" />
